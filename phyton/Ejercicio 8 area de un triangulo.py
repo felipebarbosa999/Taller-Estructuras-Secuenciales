@@ -1,0 +1,8 @@
+print("CALCULE EL AREA DE UN TRIANGULO")
+Lado_a=float(input("INGRESE LONGITUD DEL LADO A:  "))
+Lado_b=float(input("INGRESE LONGITUD DEL LADO B:  "))
+Lado_c=float(input("INGRESE LONGITUD DEL LADO C:  "))
+s=((Lado_a+Lado_b+Lado_c)/2)
+Area=((s*(s-Lado_a)*(s-Lado_b)*(s-Lado_c))*0.5)
+print("EL SEMIPERIMETRO ES:  ", s) 
+print("EL AREA DE UN TRIANGULO ES:  ",Area)
